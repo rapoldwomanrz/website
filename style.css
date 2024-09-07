@@ -1,0 +1,48 @@
+/* Стили для анимации */
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    html h1 {
+      text-align: center;
+    }
+
+    html p {
+      text-align: center;
+    }
+
+    html div {
+      text-align: center;
+    }
+
+    .tg {
+       font-size: 100px;
+    }
+
+
+    /* Стили для кнопок */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      background-color: #32CD32;
+      color: #fff;
+      cursor: pointer;
+
+    }
+    
+    .button:hover {
+      background-color: #2980b9;
+    }
+
+    .button2:hover {
+      display: none;
+    }
+
+    
+    .telegram {
+      color: #3498db;
+    }
